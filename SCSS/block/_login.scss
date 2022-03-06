@@ -1,0 +1,207 @@
+.login{
+    margin-top: 142px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login__bio1{
+    display: none;
+}
+
+.login__div{
+    width: 711px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.login__about{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.login__name{
+    width: 393px;
+}
+
+label{
+    display: block;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.login__nameinput{
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(174px);
+    padding: 14px 25px;
+    margin-top: 10px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid #FFFFFF;
+}
+
+.login__company{
+    width: 288px;
+}
+
+
+.login__telegram{
+    width: 338px;
+}
+
+.login__phone{
+    width: 338px;
+}
+
+.login__sayt{
+    width: 287px;
+}
+
+.login__select{
+    width: 100%;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(174px);
+    border-radius: 25px;
+    padding: 14px 25px;
+    margin-top: 10px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.login__boglanish{
+    width: 394px;
+}
+
+.login__info{
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin-top: 10px;
+    padding: 30px;
+    color: #FFFFFF;
+    font-weight: 500;
+    resize: vertical;
+}
+
+.login__button{
+    width: 127px;
+    padding: 10px 15px;
+    background: #0040DD;
+    border-radius: 50px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.login__bio{
+    width: 440px;
+}
+
+.login__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.login__text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width:425px){
+    .login{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .login__bio1{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .login__bio{
+        display: none;
+    }
+
+    .login__div{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .login__about{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .login__name{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .login__company{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .login__telegram{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .login__phone{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .login__sayt{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .login__boglanish{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .login__button{
+        width: 100%;
+        margin-bottom: 65px;
+    }
+
+    .login__info{
+        display: none;
+    }
+}

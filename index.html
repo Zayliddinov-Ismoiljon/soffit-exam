@@ -4,10 +4,121 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="">
+    <title>Soffit</title>
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    
+    <div class="container">
+        <header class="header" onclick="openFunction()">
+            <h1 class="visually-hidden">Welcome to Soffit site</h1>
+            <div class="header__inner">
+                <a href="./index.html" class="header__logo">
+                    <img src="./image/site-logo.svg" alt="site logo" class="header__img">
+                </a>
+                <nav class="header__nav">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a href="#" class="header__link"><del>Services</del></a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#" class="header__link">Portfolio</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#" class="header__link">About us</a>
+                        </li>
+                        <li class="header__item">
+                            <div class="header__adres">
+                                <a href="#" class="header__link2">uz</a>
+                                <a href="#" class="header__link2">ru</a>
+                                <a href="#" class="header__link2">en</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <button type="button" onclick="closeFunction()" class="button">
+                    <img src="./image/button-img.png" alt="button image" class="button__img">
+                </button>
+            </div>
+            <div id="menu" class="sidemenu">
+                <a href="#">Services</a>
+                <a href="#">Portfolio</a>
+                <a href="#">About us</a>
+            </div>
+        </header>
+
+        <section class="login">
+            <div class="login__bio1">
+                <h2 class="login__title">Ux & Ui design</h2>
+                <p class="login__text">
+                    In the current tech scenario, one can’t predict what device their user will use to interact with a product. This is why it’s always a good idea to build something that supports all devices. However it is nearly impossible to design for every screen size with so many .
+                </p>
+            </div>
+            <form action="https://echo.html.acedmy.ru" autocomplete="off" method="post">
+                <div class="login__div">
+                    <div class="login__about">
+                        <div class="login__name">
+                            <form action="https://echohtmlacademy.ru" method="post" autocomplete="off">
+                                <label for="ism">Ismingizni kiriting</label>
+                                <input class="login__nameinput" type="text" placeholder="Ismingizni kiriting" name="enter your name" id="ism" required>
+                            </form>
+                        </div>
+                        <div class="login__company">
+                            <form action="https://echohtmlacademy.ru" method="post" autocomplete="off">
+                                <label for="ism">Companiyani kiriting</label>
+                                <input class="login__nameinput" type="text" placeholder="Companiya" name="enter your name" id="ism" required>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="login__about">
+                        <div class="login__telegram">
+                            <form action="https://echohtmlacademy.ru" method="post" autocomplete="off">
+                                <label for="ism">Telegram username</label>
+                                <input class="login__nameinput" type="text" placeholder="Username" name="enter your name" id="ism" required>
+                            </form>
+                        </div>
+                        <div class="login__phone">
+                            <form action="https://echohtmlacademy.ru" method="post" autocomplete="off">
+                                <label for="ism">Phone Number</label>
+                                <input class="login__nameinput" type="tel" placeholder="+99899" name="enter your name" id="ism" required>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="login__about">
+                        <div class="login__sayt">
+                            <label for="sayt">Sayt turini tanlang</label>
+                            <select class="login__select" name="site" id="sayt">
+                                <option selected >Corporativ sayt</option>
+                                <option >Oyin uchun sayt</option>
+                            </select>
+                        </div>
+                        <div class="login__boglanish">
+                            <label for="boglanish">Bog'lanish turini tanlang</label>
+                            <select class="login__select" name="site" id="boglanish">
+                                <option selected >telegram</option>
+                                <option >Instagram</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="login__about">
+                        <div class="login__info">
+                            <label for="text">Message</label>
+                        <textarea name="izoh" id="text" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+                    <button class="login__button" type="submit">Jonatish
+                        <img src="./image/button.png" alt="" class="login__buttonimg">
+                    </button>
+                </div>
+            </form>
+            <div class="login__bio">
+                <h2 class="login__title">Ux & Ui design</h2>
+                <p class="login__text">
+                    In the current tech scenario, one can’t predict what device their user will use to interact with a product. This is why it’s always a good idea to build something that supports all devices. However it is nearly impossible to design for every screen size with so many .
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <script src="./js/main.js"></script>
 </body>
 </html>

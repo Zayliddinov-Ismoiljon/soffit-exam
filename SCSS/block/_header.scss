@@ -1,0 +1,133 @@
+body{
+    background-color: #1C1C1E;
+    font-family: "Manrope", sans-serif;
+    overflow-x: hidden;
+}
+
+
+.header{
+    padding-top: 65px;
+}
+
+.header__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.header__nav{
+    margin: 0;
+    padding: 0;
+}
+
+.header__list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header__item:nth-child(2), .header__item:nth-child(3){
+    margin-left: 35px;
+}
+
+.header__item:nth-child(4){
+    width: 99px;
+    padding: 6px 10px;
+    opacity: 0.6;
+    border: 1px solid #FFFFFF;
+    border-radius: 75px;
+    margin-left: 50px;
+}
+
+.header__link{
+    text-decoration: none;
+    color: #FFFFFF;
+    opacity: 0.3;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.header__link:hover{
+    opacity: 0.9;
+}
+
+.header__adres{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__link2{
+    text-decoration: none;
+    color: #FFFFFF;
+    opacity: 0.3;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.header__link2:hover{
+    opacity: 0.9;
+}
+
+.button{
+    display: none;
+    background-color: #1C1C1E;
+    border: none;
+}
+
+.sidemenu{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 100%;
+    background-color: #1C1C1E;
+    z-index: 1;
+    padding-top: 65px;
+    overflow-x: hidden;
+}
+
+.sidemenu a{
+    padding: 8px 8px 8px 64px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    display: block;
+}
+
+.sidemenu a:hover{
+    background-color: #0040DD;
+}
+
+.sidemenu .closebtn{
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    font-size: 16px;
+    margin-left: 32px;
+}
+
+@media only screen and (max-width:425px){
+    .container{
+        width: 100%;
+        padding: 0 16px;
+    }
+
+
+    .header{
+        width: 100%;
+        padding-top: 25px;
+    }
+
+    .header__nav{
+        display: none;
+    }
+
+    .button{
+        display: block;
+    }
+}
+
